@@ -30,3 +30,4 @@ function displayLastMessage($data){
 		echo '<p>'.$key.' : '. $value.'</p>';
 	}
 }
+
