@@ -24,3 +24,9 @@ function getUserData($path){
 	$data = file_get_contents($filename);
 	return json_decode($data, true);
 }
+
+function displayLastMessage($data){
+	foreach ($data as $key => $value) {
+		echo '<p>'.$key.' : '. $value.'</p>';
+	}
+}
